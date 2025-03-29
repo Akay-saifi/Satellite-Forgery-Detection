@@ -1,3 +1,4 @@
+#should be in app/services/
 from PIL import Image
 import numpy as np
 import time
