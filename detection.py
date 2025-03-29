@@ -1,19 +1,20 @@
-#should be in app/schemas
-from pydantic import BaseModel
+from fastapi import APIRouter, File, UploadFile, HTTPException
+from app.services.detection_service import process_image
+from app.schemas.detection import DetectionResult
 
-class DetectionResult(BaseModel):
-    is_authentic: bool
-    confidence: float
-    anomalies: list[str] = []
-    processing_time: float
+router = APIRouter(tags=["Detection"])
+
+@router.post("/detect", response_model=DetectionResult)
+async def detect_forgery(
+    image: UploadFile = File(..., description="Satellite image to analyze")
+):
+    # Validate file type
+    if not image.content_type.startswith("image/"):
+        raise HTTPException(400, "Invalid image format")
     
-    class Config:
-        schema_extra = {
-            "example": {
-                "is_authentic": False,
-                "confidence": 0.92,
-                "anomalies": ["clone_stamping", "metadata_mismatch"],
-                "processing_time": 1.45
-            }
-        }
-        
+    try:
+        # Process and get results
+        result = await process_image(image)
+        return result
+    except Exception as e:
+        raise HTTPException(500, f"Processing error: {str(e)}")
