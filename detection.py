@@ -1,3 +1,4 @@
+#should be in app/schemas
 from pydantic import BaseModel
 
 class DetectionResult(BaseModel):
