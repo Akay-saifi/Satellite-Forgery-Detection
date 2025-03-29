@@ -1,3 +1,4 @@
+#should be in app/
 import os
 
 class Settings:
