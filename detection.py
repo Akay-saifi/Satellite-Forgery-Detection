@@ -1,3 +1,4 @@
+#should be app/rooutes/
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from app.services.detection_service import process_image
 from app.schemas.detection import DetectionResult
