@@ -19,3 +19,5 @@ app.include_router(detection_router, prefix="/api/v1")
 @app.get("/health")
 def health_check():
     return {"status": "healthy"}
+
+
