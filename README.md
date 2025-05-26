@@ -1,4 +1,5 @@
-🛰️ Satellite Forgery Detector
+<p1>🛰️ Satellite Forgery Detector<p1>
+
 A web-based application to detect forged satellite images using a Convolutional Neural Network (CNN) model. Built with FastAPI for the backend, PyTorch for AI, and HTML/CSS/JavaScript for the frontend.
 
 🚀 Features
@@ -32,7 +33,7 @@ Input: Satellite image (.jpg, .png)
 Output: Forged / Real
 
 
-Demo
+<p1>Demo<p1>
 
 [![Demo Video](https://img.youtube.com/vi/UlA8hT5gbYU/0.jpg)](https://www.youtube.com/watch?v=UlA8hT5gbYU)
 
