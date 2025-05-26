@@ -14,18 +14,23 @@ A web-based application to detect forged satellite images using a Convolutional 
 📦 Installation
 
 1. Clone the repository
+ ```bash
 git clone https://github.com/Arni005/Satellite_forgery-complete-.git
 <br>cd Satellite_forgery-complete-
+ ```
 
-2. Create a virtual environment
+3. Create a virtual environment
+```bash
 <br>   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   
-3. Install dependencies
+  ``` 
+4. Install dependencies
+```bash
 <br>pip install -r requirements.txt
-
-4. Run the FastAPI server
+```
+5. Run the FastAPI server
+```bash
 <br>uvicorn app.main:app --reload
-
+```
  **🧪 Model Info **
 Architecture: Custom CNN
 Framework: PyTorch
