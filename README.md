@@ -1,4 +1,4 @@
-## **🛰️ Satellite Forgery Detector**
+# **🛰️ Satellite Forgery Detector**
 
 A web-based application to detect forged satellite images using a Convolutional Neural Network (CNN) model. Built with FastAPI for the backend, PyTorch for AI, and HTML/CSS/JavaScript for the frontend.
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload
 ```
-# 🧪 Model Info <br>
+## 🧪 Model Info <br>
 Architecture: Custom CNN <br>
 Framework: PyTorch <br>
 Input: Satellite image (.jpg, .png)<br>
