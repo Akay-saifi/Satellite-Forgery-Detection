@@ -42,7 +42,7 @@ Output: Forged / Real
 
 [![Demo Video](https://img.youtube.com/vi/UlA8hT5gbYU/0.jpg)](https://www.youtube.com/watch?v=UlA8hT5gbYU)
 
- **Authors **
+ ## **Authors **
  Frontend- @Himanshi (https://github.com/dynamicGurl)<br>
  Backend/Datasets- @Arni Johry (https://github.com/Arni005)<br>
  AI Model and Training- @Kanika Gupta , @Arman Khan (https://github.com/itsKanika , https://github.com/Akay-saifi)
