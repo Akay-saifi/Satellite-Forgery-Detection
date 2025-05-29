@@ -19,15 +19,15 @@ git clone https://github.com/Arni005/Satellite_forgery-complete-.git
 cd Satellite_forgery-complete-
  ```
 
-3. Create a virtual environment
+2. Create a virtual environment
 ```bash
   source venv/bin/activate   # On Windows: venv\Scripts\activate
   ``` 
-4. Install dependencies
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-5. Run the FastAPI server
+4. Run the FastAPI server
 ```bash
 uvicorn app.main:app --reload
 ```
@@ -42,3 +42,8 @@ Output: Forged / Real
 
 [![Demo Video](https://img.youtube.com/vi/UlA8hT5gbYU/0.jpg)](https://www.youtube.com/watch?v=UlA8hT5gbYU)
 
+ **Authors **
+ Frontend- @Himanshi (https://github.com/dynamicGurl)<br>
+ Backend/Datasets- @Arni Johry (https://github.com/Arni005)<br>
+ AI Model and Training- @Kanika Gupta , @Arman Khan (https://github.com/itsKanika , https://github.com/Akay-saifi)
+ 
