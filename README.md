@@ -11,7 +11,7 @@ A web-based application to detect forged satellite images using a Convolutional 
 
 📸 Simple UI to upload and get predictions on satellite images
 
-📦 Installation
+## 📦 Installation
 
 1. Clone the repository
  ```bash
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload
 ```
- 🧪 Model Info <br>
+# 🧪 Model Info <br>
 Architecture: Custom CNN <br>
 Framework: PyTorch <br>
 Input: Satellite image (.jpg, .png)<br>
