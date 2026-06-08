@@ -3,6 +3,7 @@
 A web-based application to detect forged satellite images using a Convolutional Neural Network (CNN) model. Built with FastAPI for the backend, PyTorch for AI, and HTML/CSS/JavaScript for the frontend.
 
 🚀 Features
+
 🧠 CNN-based AI Model using PyTorch to detect manipulated satellite imagery
 
 ⚡ FastAPI Backend for high-performance API handling
